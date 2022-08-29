@@ -53,6 +53,3 @@ jobs:
         run: terraform apply -auto-approve
         working-directory: "./modules"
         
-      - name: Terraform Destroy
-        run: terraform destroy -auto-approve
-        working-directory: "./modules"
